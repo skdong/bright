@@ -2,8 +2,21 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://E:/kaidong/openstack/apscheduler/.idea/apscheduler.iml" filepath="E:/kaidong/openstack/apscheduler/.idea/apscheduler.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/bright.iml" filepath="$PROJECT_DIR$/.idea/bright.iml" />
+      <module fileurl="file://E:/kaidong/openstack/ceilometer/.idea/ceilometer.iml" filepath="E:/kaidong/openstack/ceilometer/.idea/ceilometer.iml" />
       <module fileurl="file://$PROJECT_DIR$/../cluster/.idea/cluster.iml" filepath="$PROJECT_DIR$/../cluster/.idea/cluster.iml" />
+      <module fileurl="file://E:/kaidong/openstack/kolla/.idea/kolla.iml" filepath="E:/kaidong/openstack/kolla/.idea/kolla.iml" />
+      <module fileurl="file://E:/kaidong/openstack/kolla-ansible/.idea/kolla-ansible.iml" filepath="E:/kaidong/openstack/kolla-ansible/.idea/kolla-ansible.iml" />
+      <module fileurl="file://E:/kaidong/oceanstack/leopard/.idea/leopard.iml" filepath="E:/kaidong/oceanstack/leopard/.idea/leopard.iml" />
+      <module fileurl="file://E:/kaidong/openstack/networking-l2gw/.idea/networking-l2gw.iml" filepath="E:/kaidong/openstack/networking-l2gw/.idea/networking-l2gw.iml" />
+      <module fileurl="file://E:/kaidong/openstack/neutron/.idea/neutron.iml" filepath="E:/kaidong/openstack/neutron/.idea/neutron.iml" />
+      <module fileurl="file://E:/kaidong/openstack/nova/.idea/nova.iml" filepath="E:/kaidong/openstack/nova/.idea/nova.iml" />
+      <module fileurl="file://E:/kaidong/openstack/oslo.config/.idea/oslo.config.iml" filepath="E:/kaidong/openstack/oslo.config/.idea/oslo.config.iml" />
+      <module fileurl="file://E:/kaidong/openstack/oslo.log/.idea/oslo.log.iml" filepath="E:/kaidong/openstack/oslo.log/.idea/oslo.log.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/oslo.messaging/.idea/oslo.messaging.iml" filepath="$USER_HOME$/PycharmProjects/oslo.messaging/.idea/oslo.messaging.iml" />
+      <module fileurl="file://E:/kaidong/openstack/oslo.service/.idea/oslo.service.iml" filepath="E:/kaidong/openstack/oslo.service/.idea/oslo.service.iml" />
+      <module fileurl="file://E:/kaidong/openstack/oslo.utils/.idea/oslo.utils.iml" filepath="E:/kaidong/openstack/oslo.utils/.idea/oslo.utils.iml" />
     </modules>
   </component>
 </project>

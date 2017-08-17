@@ -5,5 +5,18 @@
     <orderEntry type="jdk" jdkName="Python 2.7.13 (C:\Python27\python.exe)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="cluster" />
+    <orderEntry type="module" module-name="oslo.messaging" />
+    <orderEntry type="module" module-name="neutron" />
+    <orderEntry type="module" module-name="oslo.service" />
+    <orderEntry type="module" module-name="networking-l2gw" />
+    <orderEntry type="module" module-name="leopard" />
+    <orderEntry type="module" module-name="nova" />
+    <orderEntry type="module" module-name="oslo.log" />
+    <orderEntry type="module" module-name="oslo.config" />
+    <orderEntry type="module" module-name="oslo.utils" />
+    <orderEntry type="module" module-name="apscheduler" />
+    <orderEntry type="module" module-name="kolla" />
+    <orderEntry type="module" module-name="kolla-ansible" />
+    <orderEntry type="module" module-name="ceilometer" />
   </component>
 </module>

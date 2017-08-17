@@ -2,6 +2,36 @@
 <project version="4">
   <component name="ProjectRootManager" version="2" project-jdk-name="Python 2.7.13 (C:\Python27\python.exe)" project-jdk-type="Python SDK" />
   <component name="SvnBranchConfigurationManager">
+    <option name="myConfigurationMap">
+      <map>
+        <entry key="$PROJECT_DIR$/../cluster">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="branchUrls">
+                <list>
+                  <option value="https://10.0.44.2/svn/Cloud/branches" />
+                  <option value="https://10.0.44.2/svn/Cloud/tags" />
+                </list>
+              </option>
+              <option name="trunkUrl" value="https://10.0.44.2/svn/Cloud/trunk" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+        <entry key="E:/kaidong/oceanstack/leopard">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="branchUrls">
+                <list>
+                  <option value="https://10.0.44.2/svn/Cloud/branches" />
+                  <option value="https://10.0.44.2/svn/Cloud/tags" />
+                </list>
+              </option>
+              <option name="trunkUrl" value="https://10.0.44.2/svn/Cloud/trunk" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="mySupportsUserInfoFilter" value="true" />
   </component>
 </project>
