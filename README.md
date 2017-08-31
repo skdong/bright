@@ -1,16 +1,16 @@
 delete controller node
 ======================
 
-## delete node from fuel web
+- delete node from fuel web
 
-## run ansible update script
+- run ansible update script
 
-### nginx update
+  - nginx update
 
-### controller update
+  - controller update
 
-## stop the delete node
+- stop the delete node
 
-## deploy controller update work flow from fuel web
+- deploy controller update work flow from fuel web
 
-## check cloude service
+- check cloude service
