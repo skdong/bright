@@ -13,4 +13,8 @@ delete controller node
 
 - deploy controller update work flow from fuel web
 
+- delete node agent
+
+- delete node from fuel
+
 - check cloude service
