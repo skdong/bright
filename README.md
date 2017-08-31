@@ -5,6 +5,8 @@ delete controller node
 
 - run ansible update script
 
+  - delete node from inventory/cloude_nodes
+
   - nginx update
 
   - controller update
