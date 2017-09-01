@@ -1,4 +1,3 @@
-import requests
 import auth
 
 bill_url = 'http://console.ghyun.com.cn/us/bill/'

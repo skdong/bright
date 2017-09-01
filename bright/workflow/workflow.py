@@ -8,11 +8,12 @@ def dump_pretty_json(data, stream):
 class WorkFlow(object):
     skippe_key = 'skipped'
 
-    def __init__(self, tasks_file=None, skip_keys=[], need_tasks=[]):
+    def __init__(self, tasks_file=None, skip_keys=[], need_tasks=[], skip_ids=[]):
         self.default_file = tasks_file
         self.default_tasks = None
         self.skip_keys = skip_keys
         self.need_tasks = need_tasks
+        self.skip_ids = skip_ids
         self.gen_default_tasks()
 
     def gen_default_tasks(self):
@@ -21,6 +22,9 @@ class WorkFlow(object):
 
     def cehck_skip(self, id):
         if id not in self.need_tasks:
+            if id in self.skip_ids:
+                self.skip_task(id)
+                return None
             for skip in self.skip_keys:
                 if skip in id:
                     self.skip_task(id)

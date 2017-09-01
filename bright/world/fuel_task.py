@@ -3,6 +3,8 @@ import pprint
 
 from workflow import workflow
 from workflow import fix_workflow
+import add_nodes
+import update_controllers
 
 tasks_file = "C:\Users\cgj\Downloads\default-release.json"
 
@@ -53,15 +55,28 @@ def generate_tasks():
                        need_tasks=['ceph-mon', 'openstack-haproxy-nova', 'openstack-haproxy-cinder',
                                    'openstack-haproxy-keystone'],),
                        target_file="C:\Users\cgj\Downloads\update_workflow.json")
+
     update_info['workflow']['need_tasks'] = ['health', 'database', 'cluster-vroute', 'virtual_ips',
                                              'conntrackd', 'cluster-haproxy', 'ntp-server',
                                              'dns-server']
+    add_info = dict(workflow=dict(tasks_file=tasks_file,
+                                  skip_ids=add_nodes.SKIP_TASKS ),
+                    target_file="C:\Users\cgj\Downloads\\add_controller.json")
+    update_info = dict(workflow=dict(tasks_file=tasks_file,
+                                  skip_ids=update_controllers.SKIP_TASKS),
+                    target_file="C:\Users\cgj\Downloads\update_controller.json")
     #update_workflow = fix_workflow.FixWorkFlow(**update_info['workflow'])
-    update_workflow = workflow.WorkFlow(**update_info['workflow'])
+    #update_workflow = workflow.WorkFlow(**update_info['workflow'])
+    add_controller = workflow.WorkFlow(**add_info['workflow'])
+    #add_controller.get_task('cluster', show=True)
+    add_controller.gen_target_task(add_info['target_file'])
+    #update_controller = workflow.WorkFlow(**update_info['workflow'])
+    #update_controller.gen_target_task(update_info['target_file'])
     #update_workflow.get_task('ceilometer-controller', show=True)
     #update_workflow.gen_target_task(target_file=update_info['target_file'])
     #update_workflow.gen_target_task(target_file=update_info['target_file'])
-    update_workflow.show_key_tasks('api-proxy')
+    #update_workflow.show_key_tasks('api-proxy')
+    #update_workflow.get_task('aodh-db', show=True)
 
 
 def main():
@@ -70,3 +85,6 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+
+
