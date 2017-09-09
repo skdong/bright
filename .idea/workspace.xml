@@ -4,8 +4,12 @@
     <list default="true" readonly="true" id="d782385a-51ac-4d3f-8e9b-dc6e7417c648" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cluster/doc/source" />
       <change type="NEW" beforePath="" afterPath="E:/kaidong/oceanstack/leopard/leopard/checker/job" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bright/deploy/add_nodes.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bright/deploy/fuel_deploy.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bright/gitlab/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bright/gitlab/client.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bright/tests/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bright/tests/unittests/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bright/tests/unittests/deploy/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bright/tests/unittests/deploy/test_fuel_deploy.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cluster/setup.cfg" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cluster/setup.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cluster/test-requirements.txt" />
@@ -14,18 +18,15 @@
       <change type="NEW" beforePath="" afterPath="E:/kaidong/oceanstack/leopard/leopard/checker/job/job.py" />
       <change type="NEW" beforePath="" afterPath="E:/kaidong/oceanstack/leopard/leopard/checker/job/project_checker.py" />
       <change type="NEW" beforePath="" afterPath="E:/kaidong/oceanstack/sloth/sloth/utils/management/commands/create_admin_user.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bright/world/fuel_task.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/bright.iml" afterPath="$PROJECT_DIR$/.idea/bright.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bright/workflow/fix_workflow.py" afterPath="$PROJECT_DIR$/bright/workflow/fix_workflow.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bright/workflow/workflow.py" afterPath="$PROJECT_DIR$/bright/workflow/workflow.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cluster/ansible/vars/deploy.yml" afterPath="$PROJECT_DIR$/../cluster/ansible/vars/deploy.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cluster/doc/deploy.rst" afterPath="$PROJECT_DIR$/../cluster/doc/deploy.rst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cluster/services/sloth/etc/sloth/local_settings.py.j2" afterPath="$PROJECT_DIR$/../cluster/services/sloth/etc/sloth/local_settings.py.j2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bright/world/__init__.py" afterPath="$PROJECT_DIR$/bright/deploy/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bright/world/add_nodes.py" afterPath="$PROJECT_DIR$/bright/deploy/add_nodes.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bright/world/check_cloud.py" afterPath="$PROJECT_DIR$/bright/deploy/check_cloud.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bright/world/test_log.py" afterPath="$PROJECT_DIR$/bright/deploy/test_log.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bright/world/update_controllers.py" afterPath="$PROJECT_DIR$/bright/deploy/update_controllers.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,71 +43,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="_i18n.py" pinned="false" current-in-tab="false">
-        <entry file="file://E:/kaidong/openstack/oslo.service/oslo_service/_i18n.py">
+      <file leaf-file-name="l2gateway.py" pinned="false" current-in-tab="false">
+        <entry file="file://E:/kaidong/openstack/networking-l2gw/networking_l2gw/extensions/l2gateway.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="-945">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding>
+                <element signature="e#649#659#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="plugin.py" pinned="false" current-in-tab="false">
+        <entry file="file://E:/kaidong/openstack/networking-l2gw/networking_l2gw/services/l2gateway/plugin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-602">
+              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="setup.cfg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../cluster/setup.cfg">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="18" column="39" lean-forward="false" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test-requirements.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../cluster/test-requirements.txt">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://E:/kaidong/openstack/neutron/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <caret line="4" column="6" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="controller.rst" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../cluster/doc/controller.rst">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="deploy.rst" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../cluster/doc/deploy.rst">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="1" column="18" lean-forward="true" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.rst" pinned="false" current-in-tab="false">
-        <entry file="file://E:/kaidong/openstack/nova/doc/README.rst">
+      <file leaf-file-name="client.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bright/gitlab/client.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.rst" pinned="false" current-in-tab="true">
-        <entry file="file://E:/kaidong/openstack/nova/README.rst">
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="27">
+              <caret line="1" column="8" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -145,23 +128,29 @@
       <find>cfg</find>
       <find>tasks_file</find>
       <find>update_info</find>
+      <find>ISO_PATH</find>
+      <find>delete_port</find>
+      <find>l3_ext_manager</find>
+      <find>L2AgentExtension</find>
+      <find>AgentCoreResourceExtension</find>
+      <find>handle_port</find>
+      <find>resources</find>
     </findStrings>
     <dirStrings>
       <dir>E:\dong\workspace\myplace\python\cluster\ansible\roles\hedwig</dir>
       <dir>E:\dong\workspace\myplace\python\cluster\ansible\roles\hedwig\tasks</dir>
       <dir>C:\Users\shika\PycharmProjects\oslo.messaging</dir>
+      <dir>E:\kaidong\openstack\networking-l2gw</dir>
+      <dir>E:\kaidong\openstack\networking-l2gw\networking_l2gw</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="E:/kaidong/openstack/nova" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../cluster/ansible/roles/ticket/tasks/run.yml" />
-        <option value="$PROJECT_DIR$/../cluster/ansible/roles/cgroup/tasks/main.yml" />
-        <option value="$PROJECT_DIR$/../cluster/ansible/roles/cgroup/tasks/install.yml" />
         <option value="$PROJECT_DIR$/../cluster/ansible/roles/cgroup/handlers/main.yml" />
         <option value="$PROJECT_DIR$/../cluster/ansible/roles/cgroup/files/cgconfig.conf" />
         <option value="$PROJECT_DIR$/../cluster/ansible/roles/cgroup/files/cgrules.conf" />
@@ -197,7 +186,6 @@
         <option value="$PROJECT_DIR$/../cluster/ansible/roles/cloud/tasks/add.yml" />
         <option value="$PROJECT_DIR$/bright/medic/project.py" />
         <option value="$PROJECT_DIR$/bright/medic/auth.py" />
-        <option value="$PROJECT_DIR$/bright/workflow/workflow.py" />
         <option value="E:/kaidong/oceanstack/sloth/sloth/utils/management/commands/create_admin_user.py" />
         <option value="$PROJECT_DIR$/../cluster/ansible/vars/deploy.yml" />
         <option value="$PROJECT_DIR$/../cluster/services/sloth/etc/sloth/local_settings.py.j2" />
@@ -210,13 +198,18 @@
         <option value="$PROJECT_DIR$/bright/tests/unittests/deploy/test_fuel_deploy.py" />
         <option value="$PROJECT_DIR$/../cluster/test-requirements.txt" />
         <option value="$PROJECT_DIR$/../cluster/doc/deploy.rst" />
+        <option value="$PROJECT_DIR$/bright/workflow/workflow.py" />
+        <option value="$PROJECT_DIR$/bright/workflow/fix_workflow.py" />
+        <option value="$PROJECT_DIR$/bright/gitlab/client.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="3" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="255" />
+    <option name="y" value="-14" />
     <option name="width" value="1604" />
-    <option name="height" value="867" />
+    <option name="height" value="707" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -253,6 +246,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -269,39 +264,49 @@
               <item name="bright" type="b2602c69:ProjectViewProjectNode" />
               <item name="bright" type="462c0819:PsiDirectoryNode" />
               <item name="bright" type="462c0819:PsiDirectoryNode" />
-              <item name="deploy" type="462c0819:PsiDirectoryNode" />
+              <item name="gitlab" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bright" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bright" type="462c0819:PsiDirectoryNode" />
-              <item name="bright" type="462c0819:PsiDirectoryNode" />
-              <item name="workflow" type="462c0819:PsiDirectoryNode" />
+              <item name="networking-l2gw" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bright" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bright" type="462c0819:PsiDirectoryNode" />
-              <item name="doc" type="462c0819:PsiDirectoryNode" />
+              <item name="networking-l2gw" type="462c0819:PsiDirectoryNode" />
+              <item name="networking_l2gw" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bright" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cluster" type="462c0819:PsiDirectoryNode" />
+              <item name="networking-l2gw" type="462c0819:PsiDirectoryNode" />
+              <item name="networking_l2gw" type="462c0819:PsiDirectoryNode" />
+              <item name="extensions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bright" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cluster" type="462c0819:PsiDirectoryNode" />
-              <item name="doc" type="462c0819:PsiDirectoryNode" />
+              <item name="networking-l2gw" type="462c0819:PsiDirectoryNode" />
+              <item name="networking_l2gw" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bright" type="b2602c69:ProjectViewProjectNode" />
+              <item name="networking-l2gw" type="462c0819:PsiDirectoryNode" />
+              <item name="networking_l2gw" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="l2gateway" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bright" type="b2602c69:ProjectViewProjectNode" />
+              <item name="neutron" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="E:/kaidong/openstack/oslo.service/test-requirements.txt" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+    <property name="last_opened_file_path" value="E:/kaidong/oceanstack" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyDependenciesConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.27342123" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -313,14 +318,14 @@
     </option>
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\kaidong\oceanstack\leopard\leopard\checker" />
-      <recent name="E:\kaidong\openstack" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\dong\workspace\myplace\python\bright\bright\deploy" />
       <recent name="E:\dong\workspace\myplace\python\cluster" />
       <recent name="E:\dong\workspace\myplace\python\cluster\ansible\roles\dns\tasks" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\kaidong\oceanstack\leopard\leopard\checker" />
+      <recent name="E:\kaidong\openstack" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -335,49 +340,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python docs.docutils task in README.rst">
-    <configuration name="Unittests for test_fuel_deploy.DeployTest.test_gen_add_controller_workflow" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bright/tests/unittests/deploy" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="bright" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_fuel_deploy.DeployTest.test_gen_add_controller_workflow&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-    </configuration>
-    <configuration name="Unittests in test_fuel_deploy.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bright/tests/unittests/deploy" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="bright" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/bright/tests/unittests/deploy/test_fuel_deploy.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
-    <configuration name="Unittests in tests" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="E:/kaidong/openstack/oslo.service/oslo_service/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="oslo.service" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;E:/kaidong/openstack/oslo.service/oslo_service/tests&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
+  <component name="RunManager" selected="Python.client">
     <configuration default="true" type="tests" factoryName="Doctests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -469,52 +432,118 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <configuration name="docutils task in README.rst" type="docs" factoryName="Docutils task" temporary="true">
+    <configuration name="client" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bright/gitlab" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="bright" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bright/gitlab/client.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="sphinx task in doc" type="docs" factoryName="Sphinx task" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="E:/kaidong/openstack/nova" />
+      <option name="WORKING_DIRECTORY" value="E:/kaidong/openstack/kolla-ansible" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="nova" />
-      <option name="docutils_input_file" value="E:/kaidong/openstack/nova/README.rst" />
-      <option name="docutils_output_file" value="E:/kaidong/openstack/nova/README.html" />
+      <module name="kolla-ansible" />
+      <option name="docutils_input_file" value="E:/kaidong/openstack/kolla-ansible/doc" />
+      <option name="docutils_output_file" value="E:\kaidong\docs\kolla" />
       <option name="docutils_params" value="" />
-      <option name="docutils_task" value="rst2html" />
-      <option name="docutils_open_in_browser" value="true" />
+      <option name="docutils_task" value="html" />
+      <option name="docutils_open_in_browser" value="false" />
     </configuration>
-    <configuration name="docutils task in controller.rst" type="docs" factoryName="Docutils task" temporary="true">
+    <configuration name="sphinx task in fuel-docs" type="docs" factoryName="Sphinx task" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../cluster/doc" />
+      <option name="WORKING_DIRECTORY" value="E:/kaidong/openstack" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="cluster" />
-      <option name="docutils_input_file" value="$PROJECT_DIR$/../cluster/doc/controller.rst" />
-      <option name="docutils_output_file" value="$PROJECT_DIR$/../cluster/doc/controller.html" />
+      <module name="fuel-docs" />
+      <option name="docutils_input_file" value="E:/kaidong/openstack/fuel-docs" />
+      <option name="docutils_output_file" value="E:\kaidong\docs\fuel-docs" />
       <option name="docutils_params" value="" />
-      <option name="docutils_task" value="rst2html" />
-      <option name="docutils_open_in_browser" value="true" />
+      <option name="docutils_task" value="html" />
+      <option name="docutils_open_in_browser" value="false" />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_fuel_deploy.DeployTest.test_gen_add_controller_workflow" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_fuel_deploy.py" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in tests" />
-      <item index="3" class="java.lang.String" itemvalue="Python docs.docutils task in controller.rst" />
-      <item index="4" class="java.lang.String" itemvalue="Python docs.docutils task in README.rst" />
+    <configuration name="sphinx task in source (1)" type="docs" factoryName="Sphinx task">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="E:/kaidong/openstack/networking-l2gw/doc" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="networking-l2gw" />
+      <option name="docutils_input_file" value="E:/kaidong/openstack/networking-l2gw/doc/source" />
+      <option name="docutils_output_file" value="E:\kaidong\docs\networking-l2gw" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="html" />
+      <option name="docutils_open_in_browser" value="false" />
+    </configuration>
+    <configuration name="sphinx task in source (2)" type="docs" factoryName="Sphinx task" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="E:/kaidong/openstack/keystone/api-ref" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="keystone" />
+      <option name="docutils_input_file" value="E:/kaidong/openstack/keystone/api-ref/source" />
+      <option name="docutils_output_file" value="E:\kaidong\docs\keystone\api-ref" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="html" />
+      <option name="docutils_open_in_browser" value="false" />
+    </configuration>
+    <configuration name="sphinx task in source" type="docs" factoryName="Sphinx task" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/PycharmProjects/oslo.messaging/doc" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="oslo.messaging" />
+      <option name="docutils_input_file" value="$USER_HOME$/PycharmProjects/oslo.messaging/doc/source" />
+      <option name="docutils_output_file" value="E:\kaidong\docs\oslo.messaging" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="html" />
+      <option name="docutils_open_in_browser" value="false" />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Python docs.sphinx task in source (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Python docs.sphinx task in doc" />
+      <item index="2" class="java.lang.String" itemvalue="Python docs.sphinx task in source" />
+      <item index="3" class="java.lang.String" itemvalue="Python docs.sphinx task in fuel-docs" />
+      <item index="4" class="java.lang.String" itemvalue="Python docs.sphinx task in source (2)" />
+      <item index="5" class="java.lang.String" itemvalue="Python.client" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python docs.docutils task in README.rst" />
-        <item index="1" class="java.lang.String" itemvalue="Python docs.docutils task in controller.rst" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in tests" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_fuel_deploy.DeployTest.test_gen_add_controller_workflow" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_fuel_deploy.py" />
+        <item index="0" class="java.lang.String" itemvalue="Python.client" />
+        <item index="1" class="java.lang.String" itemvalue="Python docs.sphinx task in source (2)" />
+        <item index="2" class="java.lang.String" itemvalue="Python docs.sphinx task in fuel-docs" />
+        <item index="3" class="java.lang.String" itemvalue="Python docs.sphinx task in source" />
+        <item index="4" class="java.lang.String" itemvalue="Python docs.sphinx task in doc" />
       </list>
     </recent_temporary>
   </component>
@@ -651,7 +680,14 @@
       <option name="project" value="LOCAL" />
       <updated>1503113864038</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="re arct">
+      <created>1504441737487</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1504441737487</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -696,21 +732,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="3" y="0" width="1604" height="867" extended-state="0" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29534006" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.246875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23291492" sideWeight="0.5251889" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23291492" sideWeight="0.47481108" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24793388" sideWeight="0.630625" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14086471" sideWeight="0.83564234" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.075" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23278236" sideWeight="0.5275" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20661157" sideWeight="0.813125" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23278236" sideWeight="0.4725" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42837465" sideWeight="0.624375" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.165625" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5192838" sideWeight="0.49" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5192838" sideWeight="0.495" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -731,7 +767,8 @@
     <MESSAGE value="add some task for add new controller node" />
     <MESSAGE value="add code for fuel tasks" />
     <MESSAGE value="add medic for OceanStack" />
-    <option name="LAST_COMMIT_MESSAGE" value="add medic for OceanStack" />
+    <MESSAGE value="re arct" />
+    <option name="LAST_COMMIT_MESSAGE" value="re arct" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHANGE_BROWSER_SETTINGS">
       <map>
@@ -748,26 +785,282 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://E:/kaidong/openstack/oslo.config/doc/source/index.rst">
+    <entry file="file://E:/kaidong/openstack/networking-l2gw/networking_l2gw/db/l2gateway/l2gateway_db.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-349">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="197">
+          <caret line="550" column="15" lean-forward="false" selection-start-line="550" selection-start-column="4" selection-end-line="550" selection-end-column="15" />
+          <folding>
+            <element signature="e#649#685#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/kaidong/openstack/oslo.config/setup.cfg">
+    <entry file="file://C:/Python27/Lib/inspect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="66" column="4" lean-forward="false" selection-start-line="66" selection-start-column="4" selection-end-line="66" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/2/six/__init__.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="53" column="4" lean-forward="false" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/oslo_utils/reflection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="160" column="28" lean-forward="false" selection-start-line="160" selection-start-column="28" selection-end-line="160" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/kaidong/openstack/neutron-lib/neutron_lib/callbacks/manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3978">
+          <caret line="158" column="13" lean-forward="false" selection-start-line="158" selection-start-column="13" selection-end-line="158" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/kaidong/openstack/neutron/neutron/plugins/ml2/plugin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-972">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/kaidong/openstack/neutron/neutron/extensions/l3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4050">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/kaidong/openstack/neutron/neutron/api/v2/attributes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1263">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/kaidong/openstack/neutron/neutron/quota/resource_registry.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="148" column="8" lean-forward="false" selection-start-line="148" selection-start-column="8" selection-end-line="148" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/kaidong/openstack/neutron/neutron/api/v2/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="756" column="4" lean-forward="false" selection-start-line="756" selection-start-column="4" selection-end-line="756" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/kaidong/openstack/neutron/neutron/db/servicetype_db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1506">
+          <caret line="31" column="8" lean-forward="false" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/kaidong/openstack/networking-l2gw/networking_l2gw/services/l2gateway/service_drivers/agent_api.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-648">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/kaidong/openstack/kolla-ansible/ansible/library/kolla_toolbox.py">
+    <entry file="file://E:/kaidong/openstack/neutron/neutron/api/extensions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="626" column="50" lean-forward="false" selection-start-line="626" selection-start-column="31" selection-end-line="626" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/kaidong/openstack/neutron/neutron/callbacks/registry.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/kaidong/openstack/neutron-lib/neutron_lib/callbacks/registry.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="33" column="4" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/kaidong/openstack/neutron/neutron/scheduler/l3_agent_scheduler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1377">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/kaidong/openstack/neutron/neutron/callbacks/resources.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/kaidong/openstack/neutron/README.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-253">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cluster/ansible/roles/registry/tasks/build.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cluster/ansible/roles/rabbit/handlers/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="38" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2017.2/system/python_stubs/-762174762/_weakref.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="23" column="4" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/kaidong/openstack/neutron/neutron/tests/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="449" column="18" lean-forward="false" selection-start-line="449" selection-start-column="18" selection-end-line="449" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/kaidong/openstack/neutron/neutron/tests/fullstack/resources/environment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="37" column="17" lean-forward="false" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/kaidong/openstack/neutron/neutron/services/externaldns/driver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="39" column="27" lean-forward="false" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/kaidong/openstack/neutron/setup.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1782">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/kaidong/openstack/neutron-lib/neutron_lib/plugins/constants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/kaidong/openstack/neutron/neutron/services/l3_router/l3_router_plugin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="119" column="33" lean-forward="false" selection-start-line="119" selection-start-column="33" selection-end-line="119" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/kaidong/openstack/neutron-lib/neutron_lib/plugins/directory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="38" column="8" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/kaidong/openstack/neutron/neutron/manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2547">
+          <caret line="254" column="35" lean-forward="false" selection-start-line="254" selection-start-column="8" selection-end-line="254" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/kaidong/openstack/neutron/neutron/core_extensions/qos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1375">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/kaidong/openstack/neutron/neutron/plugins/common/constants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1020">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/kaidong/openstack/networking-l2gw/networking_l2gw/cmd/eventlet/agent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="19" column="17" lean-forward="false" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/kaidong/openstack/networking-l2gw/networking_l2gw/services/l2gateway/common/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="84" column="4" lean-forward="false" selection-start-line="84" selection-start-column="4" selection-end-line="84" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/kaidong/openstack/networking-l2gw/networking_l2gw/services/l2gateway/l2gw_agent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="34" column="29" lean-forward="false" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/kaidong/openstack/neutron/neutron/api/v2/router.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="78" column="15" lean-forward="false" selection-start-line="78" selection-start-column="8" selection-end-line="78" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/kaidong/openstack/networking-l2gw/networking_l2gw/extensions/l2gatewayconnection.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -775,47 +1068,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../cluster/requirements.txt">
+    <entry file="file://E:/kaidong/openstack/networking-l2gw/README.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cluster/readme.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/kaidong/openstack/nova/doc/api_samples/flavors/flavors-detail-resp.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2025">
+        <state relative-caret-position="-280">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/kaidong/openstack/nova/doc/api_samples/servers/v2.3/server-get-resp.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1863">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/kaidong/openstack/nova/doc/api_samples/flavors/flavor-get-resp.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-363">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/kaidong/openstack/nova/doc/api_samples/consoles/consoles-get-resp.json">
+    <entry file="file://E:/kaidong/openstack/networking-l2gw/doc/source/readme.rst">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -823,7 +1084,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/kaidong/openstack/nova/doc/notification_samples/aggregate-create-end.json">
+    <entry file="file://E:/kaidong/openstack/networking-l2gw/doc/source/usage.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3709">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/kaidong/openstack/networking-l2gw/doc/source/installation.rst">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -831,31 +1100,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/kaidong/openstack/nova/doc/notification_samples/instance-resize-end.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2118">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-430">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4395">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/kaidong/openstack/nova/api-guide/source/authentication.rst">
+    <entry file="file://E:/kaidong/openstack/networking-l2gw/doc/source/index.rst">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -863,31 +1108,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/kaidong/openstack/nova/api-ref/source/os-services.inc">
+    <entry file="file://E:/kaidong/openstack/networking-l2gw/doc/source/conf.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-567">
+        <state relative-caret-position="-324">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/kaidong/openstack/nova/devstack/tempest-dsvm-cells-rc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1458">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/kaidong/openstack/nova/api-ref/source/parameters.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2754">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/kaidong/openstack/nova/etc/nova/nova-config-generator.conf">
+    <entry file="file://E:/kaidong/openstack/networking-l2gw/doc/source/contributing.rst">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -895,270 +1124,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/kaidong/openstack/nova/gate/post_test_hook.sh">
+    <entry file="file://E:/kaidong/openstack/nova/nova/api/openstack/compute/flavors.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-295">
+        <state relative-caret-position="-457">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/kaidong/openstack/nova/placement-api-ref/source/resource_provider.inc">
+    <entry file="file://E:/kaidong/openstack/networking-l2gw/networking_l2gw/extensions/l2gateway.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-945">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#649#659#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/kaidong/openstack/networking-l2gw/networking_l2gw/services/l2gateway/plugin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-602">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/kaidong/openstack/nova/placement-api-ref/source/get-aggregates.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/kaidong/openstack/nova/gate/README">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/kaidong/openstack/nova/.mailmap">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-810">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/kaidong/openstack/nova/tox.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/kaidong/openstack/oslo.service/doc/source/conf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-486">
-          <caret line="55" column="24" lean-forward="false" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/kaidong/openstack/oslo.service/doc/source/index.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-243">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/kaidong/openstack/oslo.service/doc/source/install/index.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/kaidong/openstack/oslo.service/doc/source/contributor/index.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/kaidong/openstack/oslo.service/doc/source/configuration/index.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/kaidong/openstack/oslo.service/doc/source/user/index.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bright/get_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="1022" column="0" lean-forward="false" selection-start-line="1022" selection-start-column="0" selection-end-line="1022" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bright/deploy/check_cloud.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/setup.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-243">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bright/workflow/workflow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/kaidong/openstack/oslo.service/doc/source/user/usage.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-459">
-          <caret line="52" column="16" lean-forward="false" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/kaidong/openstack/oslo.service/doc/source/user/history.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bright/deploy/add_nodes.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1809">
-          <caret line="67" column="10" lean-forward="true" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bright/deploy/fuel_deploy.py">
+    <entry file="file://E:/kaidong/openstack/neutron/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
-          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bright/deploy/add_nodes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="4" column="6" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bright/tests/unittests/deploy/test_fuel_deploy.py">
+    <entry file="file://C:/Python27/Lib/site-packages/requests/adapters.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="101">
+          <caret line="489" column="0" lean-forward="false" selection-start-line="489" selection-start-column="0" selection-end-line="489" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://C:/Python27/Lib/site-packages/urllib3/connectionpool.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        <state relative-caret-position="91">
+          <caret line="851" column="0" lean-forward="false" selection-start-line="851" selection-start-column="0" selection-end-line="851" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bright/gitlab/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/kaidong/openstack/oslo.service/oslo_service/_i18n.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cluster/setup.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="18" column="39" lean-forward="false" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cluster/test-requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cluster/doc/controller.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cluster/doc/deploy.rst">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
-          <caret line="1" column="18" lean-forward="true" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/kaidong/openstack/nova/doc/README.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/kaidong/openstack/nova/README.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <caret line="1" column="8" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
           <folding />
         </state>
       </provider>

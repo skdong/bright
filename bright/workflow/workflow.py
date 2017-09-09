@@ -2,8 +2,10 @@ import pprint
 import json
 import sys
 
+
 def dump_pretty_json(data, stream):
     json.dump(data, stream, sort_keys=True, indent=4)
+
 
 class WorkFlow(object):
     skippe_key = 'skipped'
@@ -60,7 +62,7 @@ class WorkFlow(object):
                 return task
 
     def gen_target_task(self, target_file=None):
-        tasks=list()
+        tasks = list()
         ids = self.over_skip_tasks()
         for task in self.default_tasks:
             if task['id'] in ids:
@@ -70,4 +72,3 @@ class WorkFlow(object):
                 dump_pretty_json(self.default_tasks, fp)
         else:
             dump_pretty_json(tasks, sys.stdout)
-
