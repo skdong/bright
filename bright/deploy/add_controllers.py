@@ -1,4 +1,5 @@
-SKIP_TASKS="""
+workflow = 'add_controller.json'
+SKIP_TASKS = """
 primary-rabbitmq
 cluster_health
 generate_vms
