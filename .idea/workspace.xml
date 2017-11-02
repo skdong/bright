@@ -2,38 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="d782385a-51ac-4d3f-8e9b-dc6e7417c648" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bright/deploy/add_computes.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bright/deploy/update_computes.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bright/workflow/api.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bright/gitlab/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cluster/setup.cfg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bright/gitlab/client.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bright/tests/unittests/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="E:/kaidong/oceanstack/sloth/sloth/utils/management/commands/create_admin_user.py" />
-      <change type="NEW" beforePath="" afterPath="E:/kaidong/oceanstack/leopard/leopard/checker/job/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="E:/kaidong/oceanstack/leopard/leopard/checker/job/project_checker.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cluster/test-requirements.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cluster/tox.ini" />
-      <change type="NEW" beforePath="" afterPath="E:/kaidong/oceanstack/leopard/leopard/checker/job/job.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bright/tests/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="E:/kaidong/oceanstack/leopard/leopard/checker/job" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bright/tests/unittests/deploy/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cluster/doc/source" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cluster/setup.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bright/tests/unittests/deploy/test_fuel_deploy.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bright/deploy/add_nodes.yml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bright/deploy/fuel_deploy.py" afterPath="$PROJECT_DIR$/bright/deploy/fuel_deploy.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bright/deploy/update_controllers.py" afterPath="$PROJECT_DIR$/bright/deploy/update_controllers.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bright/deploy/add_nodes.py" afterPath="$PROJECT_DIR$/bright/deploy/add_controllers.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bright/ovsdb/ovs-vtep.in" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cluster/ansible/vars/deploy.yml" afterPath="$PROJECT_DIR$/../cluster/ansible/vars/deploy.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cluster/services/sloth/etc/sloth/local_settings.py.j2" afterPath="$PROJECT_DIR$/../cluster/services/sloth/etc/sloth/local_settings.py.j2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bright/workflow/workflow.py" afterPath="$PROJECT_DIR$/bright/workflow/workflow.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/bright.iml" afterPath="$PROJECT_DIR$/.idea/bright.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cluster/doc/deploy.rst" afterPath="$PROJECT_DIR$/../cluster/doc/deploy.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bright/workflow/fix_workflow.py" afterPath="$PROJECT_DIR$/bright/workflow/fix_workflow.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -51,11 +21,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="controller.rst" pinned="false" current-in-tab="true">
+      <file leaf-file-name="controller.rst" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../cluster/doc/controller.rst">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ovs-vtep.in" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bright/ovsdb/ovs-vtep.in">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -127,8 +107,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../cluster/ansible/roles/cgroup/handlers/main.yml" />
-        <option value="$PROJECT_DIR$/../cluster/ansible/roles/cgroup/files/cgconfig.conf" />
         <option value="$PROJECT_DIR$/../cluster/ansible/roles/cgroup/files/cgrules.conf" />
         <option value="E:/kaidong/oceanstack/leopard/leopard/checker/notifier/job/project_checker.py" />
         <option value="E:/kaidong/oceanstack/leopard/leopard/checker/notifier/job/job.py" />
@@ -178,6 +156,8 @@
         <option value="$PROJECT_DIR$/bright/workflow/fix_workflow.py" />
         <option value="$PROJECT_DIR$/bright/gitlab/client.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/bright/ovsdb/ovs-vtep.py" />
+        <option value="$PROJECT_DIR$/bright/ovsdb/ovs-vtep.in" />
       </list>
     </option>
   </component>
@@ -235,6 +215,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bright" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bright" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bright" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bright" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bright" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bright" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ovsdb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -254,14 +266,16 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\work\light\bright\bright\ovsdb" />
+      <recent name="E:\kaidong\oceanstack\leopard\leopard\checker" />
+      <recent name="E:\kaidong\openstack" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\work\light\bright\bright\ovsdb" />
       <recent name="E:\dong\workspace\myplace\python\bright\bright\deploy" />
       <recent name="E:\dong\workspace\myplace\python\cluster" />
       <recent name="E:\dong\workspace\myplace\python\cluster\ansible\roles\dns\tasks" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\kaidong\oceanstack\leopard\leopard\checker" />
-      <recent name="E:\kaidong\openstack" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -605,7 +619,14 @@
       <option name="project" value="LOCAL" />
       <updated>1504441737487</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="re arct">
+      <created>1509615616123</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1509615616123</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -652,12 +673,12 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2953125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2953125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23174603" sideWeight="0.52916664" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14086471" sideWeight="0.83564234" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23174603" sideWeight="0.47083333" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23174603" sideWeight="0.47083333" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24793388" sideWeight="0.630625" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.075" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -698,7 +719,8 @@
     <MESSAGE value="add code for fuel tasks" />
     <MESSAGE value="add medic for OceanStack" />
     <MESSAGE value="re arct" />
-    <option name="LAST_COMMIT_MESSAGE" value="re arct" />
+    <MESSAGE value="add ovs-vtep script for ovs use as hardward vtep" />
+    <option name="LAST_COMMIT_MESSAGE" value="add ovs-vtep script for ovs use as hardward vtep" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHANGE_BROWSER_SETTINGS">
       <map>
@@ -723,29 +745,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://E:/kaidong/openstack/networking-l2gw/networking_l2gw/db/l2gateway/l2gateway_db.py" />
-    <entry file="file://C:/Python27/Lib/inspect.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="66" column="4" lean-forward="false" selection-start-line="66" selection-start-column="4" selection-end-line="66" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/2/six/__init__.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="53" column="4" lean-forward="false" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/oslo_utils/reflection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="160" column="28" lean-forward="false" selection-start-line="160" selection-start-column="28" selection-end-line="160" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/kaidong/openstack/neutron-lib/neutron_lib/callbacks/manager.py" />
     <entry file="file://E:/kaidong/openstack/neutron/neutron/plugins/ml2/plugin.py" />
     <entry file="file://E:/kaidong/openstack/neutron/neutron/extensions/l3.py" />
@@ -826,6 +825,39 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="1" column="8" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cluster/doc/controller.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bright/ovsdb/ovs-vtep.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bright/ovsdb/ovs-vtep">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2745">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bright/ovsdb/ovs-vtep.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
