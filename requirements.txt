@@ -1,2 +1,6 @@
 pbr>=1.6
 requests
+automaton
+oslo.config
+oslo.context
+oslo.log

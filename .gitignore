@@ -4,6 +4,7 @@
 *.pyc
 *.sqlite
 /.*
+.idea
 !.coveragerc
 !.gitignore
 !.mailmap
