@@ -4,3 +4,7 @@ automaton
 oslo.config
 oslo.context
 oslo.log
+timeout
+apscheduler
+python-consul
+scrapy

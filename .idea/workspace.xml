@@ -1,39 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="d782385a-51ac-4d3f-8e9b-dc6e7417c648" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bright/deploy/add_computes.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bright/deploy/update_computes.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bright/workflow/api.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bright/gitlab/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cluster/setup.cfg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bright/gitlab/client.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bright/tests/unittests/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="E:/kaidong/oceanstack/sloth/sloth/utils/management/commands/create_admin_user.py" />
-      <change type="NEW" beforePath="" afterPath="E:/kaidong/oceanstack/leopard/leopard/checker/job/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="E:/kaidong/oceanstack/leopard/leopard/checker/job/project_checker.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cluster/test-requirements.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cluster/tox.ini" />
-      <change type="NEW" beforePath="" afterPath="E:/kaidong/oceanstack/leopard/leopard/checker/job/job.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bright/tests/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="E:/kaidong/oceanstack/leopard/leopard/checker/job" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bright/tests/unittests/deploy/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cluster/doc/source" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cluster/setup.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bright/tests/unittests/deploy/test_fuel_deploy.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bright/deploy/add_nodes.yml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bright/deploy/fuel_deploy.py" afterPath="$PROJECT_DIR$/bright/deploy/fuel_deploy.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bright/deploy/update_controllers.py" afterPath="$PROJECT_DIR$/bright/deploy/update_controllers.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bright/deploy/add_nodes.py" afterPath="$PROJECT_DIR$/bright/deploy/add_controllers.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cluster/ansible/vars/deploy.yml" afterPath="$PROJECT_DIR$/../cluster/ansible/vars/deploy.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cluster/services/sloth/etc/sloth/local_settings.py.j2" afterPath="$PROJECT_DIR$/../cluster/services/sloth/etc/sloth/local_settings.py.j2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bright/workflow/workflow.py" afterPath="$PROJECT_DIR$/bright/workflow/workflow.py" />
+    <list default="true" id="7ef5be22-0a33-4312-ac65-b2c9ef547c17" name="Default" comment="commit">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bright/medic/novnc.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bright/medic/scheduler.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bright/practic/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bright/practic/test_consul.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bright/task/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bright/task/task.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bright/tests/unittests/task/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bright/tests/unittests/task/test_task.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bright/webspider/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bright/webspider/myspider.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/bright.iml" afterPath="$PROJECT_DIR$/.idea/bright.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cluster/doc/deploy.rst" afterPath="$PROJECT_DIR$/../cluster/doc/deploy.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bright/workflow/fix_workflow.py" afterPath="$PROJECT_DIR$/bright/workflow/fix_workflow.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bright/medic/project.py" afterPath="$PROJECT_DIR$/bright/medic/project.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,36 +26,8 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
-  </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
-  <component name="FavoritesManager">
-    <favorites_list name="bright" />
-  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="controller.rst" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../cluster/doc/controller.rst">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="deploy.rst" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../cluster/doc/deploy.rst">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -80,132 +36,30 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>m</find>
-      <find>mq</find>
-      <find>mq-</find>
-      <find>mq-c</find>
-      <find>mq-co</find>
-      <find>mq-con</find>
-      <find>mq-cons</find>
-      <find>mq-consu</find>
-      <find>mq-consum</find>
-      <find>mq-consume</find>
-      <find>rpc_backend</find>
-      <find>oslo_messaging</find>
-      <find>get_server</find>
-      <find>om_serializer</find>
-      <find>Sale_Statistics</find>
-      <find>Mcast_Macs_Remote</find>
-      <find>sup</find>
-      <find>check_project_to_project</find>
-      <find>Project</find>
-      <find>cfg</find>
-      <find>tasks_file</find>
-      <find>update_info</find>
-      <find>ISO_PATH</find>
-      <find>delete_port</find>
-      <find>l3_ext_manager</find>
-      <find>L2AgentExtension</find>
-      <find>AgentCoreResourceExtension</find>
-      <find>handle_port</find>
-      <find>resources</find>
-    </findStrings>
-    <dirStrings>
-      <dir>E:\dong\workspace\myplace\python\cluster\ansible\roles\hedwig</dir>
-      <dir>E:\dong\workspace\myplace\python\cluster\ansible\roles\hedwig\tasks</dir>
-      <dir>C:\Users\shika\PycharmProjects\oslo.messaging</dir>
-      <dir>E:\kaidong\openstack\networking-l2gw</dir>
-      <dir>E:\kaidong\openstack\networking-l2gw\networking_l2gw</dir>
-    </dirStrings>
-  </component>
   <component name="Git.Settings">
-    <option name="ROOT_SYNC" value="SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../cluster/ansible/roles/cgroup/handlers/main.yml" />
-        <option value="$PROJECT_DIR$/../cluster/ansible/roles/cgroup/files/cgconfig.conf" />
-        <option value="$PROJECT_DIR$/../cluster/ansible/roles/cgroup/files/cgrules.conf" />
-        <option value="E:/kaidong/oceanstack/leopard/leopard/checker/notifier/job/project_checker.py" />
-        <option value="E:/kaidong/oceanstack/leopard/leopard/checker/notifier/job/job.py" />
-        <option value="E:/kaidong/oceanstack/leopard/leopard/checker/service.py" />
-        <option value="E:/kaidong/oceanstack/leopard/leopard/checker/job/job.py" />
-        <option value="E:/kaidong/oceanstack/leopard/leopard/checker/job/project_checker.py" />
-        <option value="$PROJECT_DIR$/../cluster/ansible/active_access.yml" />
-        <option value="$PROJECT_DIR$/../cluster/ansible/insert_controller.yml" />
-        <option value="$PROJECT_DIR$/../cluster/ansible/roles/master/tasks/setup.yml" />
-        <option value="$PROJECT_DIR$/../cluster/ansible/roles/rabbit/tasks/haproxy.yml" />
-        <option value="$PROJECT_DIR$/../cluster/ansible/roles/rabbit/handlers/main.yml" />
-        <option value="$PROJECT_DIR$/../cluster/ansible/add_lancer.yml" />
-        <option value="$PROJECT_DIR$/../cluster/ansible/generate_config.yml" />
-        <option value="$PROJECT_DIR$/../cluster/ansible/roles/context/tasks/init.yml" />
-        <option value="$PROJECT_DIR$/../cluster/ansible/roles/dns/tasks/main.yml" />
-        <option value="$PROJECT_DIR$/../cluster/ansible/init_node.yml" />
-        <option value="$PROJECT_DIR$/../cluster/ansible/roles/common/tasks/main.yml" />
-        <option value="$PROJECT_DIR$/../cluster/ansible/init_python.yml" />
-        <option value="$PROJECT_DIR$/../cluster/ansible/setup_image.yml" />
-        <option value="$PROJECT_DIR$/../cluster/ansible/setup_portal.yml" />
-        <option value="$PROJECT_DIR$/../cluster/ansible/roles/common/tasks/add.yml" />
-        <option value="$PROJECT_DIR$/../cluster/ansible/add_node.yml" />
-        <option value="$PROJECT_DIR$/../cluster/ansible/readme.txt" />
-        <option value="$PROJECT_DIR$/../cluster/ansible/roles/dns/tasks/add.yml" />
-        <option value="$PROJECT_DIR$/../cluster/ansible/roles/docker/tasks/main.yml" />
-        <option value="$PROJECT_DIR$/../cluster/ansible/roles/docker/tasks/add.yml" />
-        <option value="$PROJECT_DIR$/../cluster/ansible/roles/system/tasks/new_hosts.yml" />
-        <option value="$PROJECT_DIR$/../cluster/ansible/roles/system/tasks/add_hosts.yml" />
-        <option value="$PROJECT_DIR$/../cluster/ansible/roles/system/tasks/add.yml" />
-        <option value="$PROJECT_DIR$/../cluster/ansible/add_controller.yml" />
-        <option value="$PROJECT_DIR$/../cluster/ansible/roles/cloud/tasks/add.yml" />
-        <option value="$PROJECT_DIR$/bright/medic/project.py" />
-        <option value="$PROJECT_DIR$/bright/medic/auth.py" />
-        <option value="E:/kaidong/oceanstack/sloth/sloth/utils/management/commands/create_admin_user.py" />
-        <option value="$PROJECT_DIR$/../cluster/ansible/vars/deploy.yml" />
-        <option value="$PROJECT_DIR$/../cluster/services/sloth/etc/sloth/local_settings.py.j2" />
-        <option value="$PROJECT_DIR$/../cluster/setup.cfg" />
-        <option value="$PROJECT_DIR$/bright/world/fuel_task.py" />
-        <option value="$PROJECT_DIR$/bright/tests/unittests/work/test_fuel_task.py" />
-        <option value="$PROJECT_DIR$/bright/deploy/fuel_task.py" />
-        <option value="$PROJECT_DIR$/bright/deploy/add_nodes.yml" />
-        <option value="$PROJECT_DIR$/bright/deploy/fuel_deploy.py" />
-        <option value="$PROJECT_DIR$/bright/tests/unittests/deploy/test_fuel_deploy.py" />
-        <option value="$PROJECT_DIR$/../cluster/test-requirements.txt" />
-        <option value="$PROJECT_DIR$/../cluster/doc/deploy.rst" />
-        <option value="$PROJECT_DIR$/bright/workflow/workflow.py" />
-        <option value="$PROJECT_DIR$/bright/workflow/fix_workflow.py" />
-        <option value="$PROJECT_DIR$/bright/gitlab/client.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/bright/tests/unittests/task/test_task.py" />
+        <option value="$PROJECT_DIR$/bright/task/task.py" />
+        <option value="$PROJECT_DIR$/bright/medic/scheduler.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/bright/webspider/myspider.py" />
+        <option value="$PROJECT_DIR$/bright/medic/project.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="14" />
+    <option name="y" value="66" />
+    <option name="width" value="1400" />
+    <option name="height" value="820" />
   </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>BashSupport</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
-    <ConfirmationsSetting value="2" id="Remove" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -223,46 +77,28 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bright" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bright" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="bright" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bright" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bright" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bright" type="462c0819:PsiDirectoryNode" />
+              <item name="bright" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="E:/kaidong/oceanstack" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyDependenciesConfigurable" />
-    <property name="settings.editor.splitter.proportion" value="0.27342123" />
-  </component>
-  <component name="PyConsoleOptionsProvider">
-    <option name="myPythonConsoleState">
-      <console-settings module-name="fuel-library" is-module-sdk="true">
-        <option name="myUseModuleSdk" value="true" />
-        <option name="myModuleName" value="fuel-library" />
-      </console-settings>
-    </option>
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\dong\workspace\myplace\python\bright\bright\deploy" />
-      <recent name="E:\dong\workspace\myplace\python\cluster" />
-      <recent name="E:\dong\workspace\myplace\python\cluster\ansible\roles\dns\tasks" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\kaidong\oceanstack\leopard\leopard\checker" />
-      <recent name="E:\kaidong\openstack" />
-    </key>
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -276,573 +112,396 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.client">
-    <configuration default="false" name="sphinx task in doc" type="docs" factoryName="Sphinx task" temporary="true">
+  <component name="RunManager" selected="Python.project">
+    <configuration name="Unittests for test_task.TestTask" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="E:/kaidong/openstack/kolla-ansible" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bright/tests/unittests/task" />
       <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="kolla-ansible" />
-      <option name="docutils_input_file" value="E:/kaidong/openstack/kolla-ansible/doc" />
-      <option name="docutils_output_file" value="E:\kaidong\docs\kolla" />
-      <option name="docutils_params" value="" />
-      <option name="docutils_task" value="html" />
-      <option name="docutils_open_in_browser" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="sphinx task in source" type="docs" factoryName="Sphinx task" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/PycharmProjects/oslo.messaging/doc" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="oslo.messaging" />
-      <option name="docutils_input_file" value="$USER_HOME$/PycharmProjects/oslo.messaging/doc/source" />
-      <option name="docutils_output_file" value="E:\kaidong\docs\oslo.messaging" />
-      <option name="docutils_params" value="" />
-      <option name="docutils_task" value="html" />
-      <option name="docutils_open_in_browser" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="sphinx task in fuel-docs" type="docs" factoryName="Sphinx task" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="E:/kaidong/openstack" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="fuel-docs" />
-      <option name="docutils_input_file" value="E:/kaidong/openstack/fuel-docs" />
-      <option name="docutils_output_file" value="E:\kaidong\docs\fuel-docs" />
-      <option name="docutils_params" value="" />
-      <option name="docutils_task" value="html" />
-      <option name="docutils_open_in_browser" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="sphinx task in source (2)" type="docs" factoryName="Sphinx task" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="E:/kaidong/openstack/keystone/api-ref" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="keystone" />
-      <option name="docutils_input_file" value="E:/kaidong/openstack/keystone/api-ref/source" />
-      <option name="docutils_output_file" value="E:\kaidong\docs\keystone\api-ref" />
-      <option name="docutils_params" value="" />
-      <option name="docutils_task" value="html" />
-      <option name="docutils_open_in_browser" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="client" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bright/gitlab" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="bright" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bright/gitlab/client.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration">
-      <method />
-    </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="bright" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="bright" />
-      <method />
-    </configuration>
-    <configuration default="true" type="docs" factoryName="Docutils task">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="neutron" />
-      <option name="docutils_input_file" value="" />
-      <option name="docutils_output_file" value="" />
-      <option name="docutils_params" value="" />
-      <option name="docutils_task" value="" />
-      <option name="docutils_open_in_browser" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="docs" factoryName="Sphinx task">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="bright" />
-      <option name="docutils_input_file" value="" />
-      <option name="docutils_output_file" value="" />
-      <option name="docutils_params" value="" />
-      <option name="docutils_task" value="" />
-      <option name="docutils_open_in_browser" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="bright" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="bright" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;.&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method />
+      <option name="_new_target" value="&quot;test_task.TestTask&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration default="false" name="sphinx task in source (1)" type="docs" factoryName="Sphinx task">
+    <configuration name="Unittests in test_task.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="E:/kaidong/openstack/networking-l2gw/doc" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bright/tests/unittests/task" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="networking-l2gw" />
-      <option name="docutils_input_file" value="E:/kaidong/openstack/networking-l2gw/doc/source" />
-      <option name="docutils_output_file" value="E:\kaidong\docs\networking-l2gw" />
-      <option name="docutils_params" value="" />
-      <option name="docutils_task" value="html" />
-      <option name="docutils_open_in_browser" value="false" />
-      <method />
+      <module name="bright" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/bright/tests/unittests/task/test_task.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="Python docs.sphinx task in source (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Python docs.sphinx task in doc" />
-      <item index="2" class="java.lang.String" itemvalue="Python docs.sphinx task in source" />
-      <item index="3" class="java.lang.String" itemvalue="Python docs.sphinx task in fuel-docs" />
-      <item index="4" class="java.lang.String" itemvalue="Python docs.sphinx task in source (2)" />
-      <item index="5" class="java.lang.String" itemvalue="Python.client" />
+    <configuration name="project" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bright/medic" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="bright" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bright/medic/project.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="scheduler" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bright/medic" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="bright" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bright/medic/scheduler.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="task" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bright/task" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="bright" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bright/task/task.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_task.py" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_task.TestTask" />
+      <item index="2" class="java.lang.String" itemvalue="Python.task" />
+      <item index="3" class="java.lang.String" itemvalue="Python.scheduler" />
+      <item index="4" class="java.lang.String" itemvalue="Python.project" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.client" />
-        <item index="1" class="java.lang.String" itemvalue="Python docs.sphinx task in source (2)" />
-        <item index="2" class="java.lang.String" itemvalue="Python docs.sphinx task in fuel-docs" />
-        <item index="3" class="java.lang.String" itemvalue="Python docs.sphinx task in source" />
-        <item index="4" class="java.lang.String" itemvalue="Python docs.sphinx task in doc" />
+        <item index="0" class="java.lang.String" itemvalue="Python.project" />
+        <item index="1" class="java.lang.String" itemvalue="Python.scheduler" />
+        <item index="2" class="java.lang.String" itemvalue="Python.task" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_task.TestTask" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_task.py" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
-  <component name="SvnConfiguration" cleanupOnStartRun="true">
-    <configuration>C:\Users\shika\AppData\Roaming\Subversion</configuration>
-    <supportedVersion>125</supportedVersion>
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d782385a-51ac-4d3f-8e9b-dc6e7417c648" name="Default" comment="" />
-      <created>1484141932724</created>
+      <changelist id="7ef5be22-0a33-4312-ac65-b2c9ef547c17" name="Default" comment="" />
+      <created>1510321189939</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1484141932724</updated>
+      <updated>1510321189939</updated>
     </task>
-    <task id="LOCAL-00001" summary="1：rename build container to create;&#10;2：user services var replace detail service item">
-      <created>1500742791146</created>
+    <task id="LOCAL-00001" summary="commit change">
+      <created>1510321257058</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1500742791146</updated>
+      <updated>1510321257058</updated>
     </task>
-    <task id="LOCAL-00002" summary="1：rename build container to create;&#10;2：user services var replace detail service item">
-      <created>1500743757591</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1500743757591</updated>
-    </task>
-    <task id="LOCAL-00003" summary="test">
-      <created>1500744390007</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1500744390007</updated>
-    </task>
-    <task id="LOCAL-00004" summary="add some gift">
-      <created>1500744527604</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1500744527604</updated>
-    </task>
-    <task id="LOCAL-00005" summary="add some gift">
-      <created>1500744626469</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1500744626469</updated>
-    </task>
-    <task id="LOCAL-00006" summary="add some gift">
-      <created>1500744654399</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1500744654399</updated>
-    </task>
-    <task id="LOCAL-00007" summary="and role for set service cgroup">
-      <created>1501671476206</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1501671476206</updated>
-    </task>
-    <task id="LOCAL-00008" summary="add deal for add node">
-      <created>1502205286318</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1502205286318</updated>
-    </task>
-    <task id="LOCAL-00009" summary="add some task for add new controller node">
-      <created>1502290290574</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1502290290574</updated>
-    </task>
-    <task id="LOCAL-00010" summary="add code for fuel tasks">
-      <created>1502981997297</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1502981997297</updated>
-    </task>
-    <task id="LOCAL-00011" summary="add medic for OceanStack">
-      <created>1503113849257</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1503113849257</updated>
-    </task>
-    <task id="LOCAL-00012" summary="add medic for OceanStack">
-      <created>1503113864038</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1503113864038</updated>
-    </task>
-    <task id="LOCAL-00013" summary="re arct">
-      <created>1504441737487</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1504441737487</updated>
-    </task>
-    <option name="localTasksCounter" value="14" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_fuel_deploy_DeployTest - 2017.09.02 at 10h 55m 04s.xml">
-      <configuration name="Unittests for test_fuel_deploy.DeployTest" configurationId="tests" />
+    <history-entry file="Unittests_for_test_task_TestTask - 2017.11.11 at 10h 09m 04s.xml">
+      <configuration name="Unittests for test_task.TestTask" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_fuel_deploy_DeployTest - 2017.09.02 at 10h 55m 54s.xml">
-      <configuration name="Unittests for test_fuel_deploy.DeployTest" configurationId="tests" />
+    <history-entry file="Unittests_for_test_task_TestTask - 2017.11.11 at 10h 09m 25s.xml">
+      <configuration name="Unittests for test_task.TestTask" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_fuel_deploy_DeployTest - 2017.09.02 at 10h 57m 21s.xml">
-      <configuration name="Unittests for test_fuel_deploy.DeployTest" configurationId="tests" />
+    <history-entry file="Unittests_for_test_task_TestTask - 2017.11.11 at 10h 10m 26s.xml">
+      <configuration name="Unittests for test_task.TestTask" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_fuel_deploy_DeployTest - 2017.09.02 at 11h 01m 21s.xml">
-      <configuration name="Unittests for test_fuel_deploy.DeployTest" configurationId="tests" />
+    <history-entry file="Unittests_for_test_task_TestTask - 2017.11.11 at 10h 22m 12s.xml">
+      <configuration name="Unittests for test_task.TestTask" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_fuel_deploy_DeployTest_test_gen_add_controller_workflow - 2017.09.02 at 10h 56m 11s.xml">
-      <configuration name="Unittests for test_fuel_deploy.DeployTest.test_gen_add_controller_workflow" configurationId="tests" />
+    <history-entry file="Unittests_for_test_task_TestTask - 2017.11.11 at 10h 22m 22s.xml">
+      <configuration name="Unittests for test_task.TestTask" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_fuel_deploy_DeployTest_test_gen_add_controller_workflow - 2017.09.02 at 11h 04m 33s.xml">
-      <configuration name="Unittests for test_fuel_deploy.DeployTest.test_gen_add_controller_workflow" configurationId="tests" />
+    <history-entry file="Unittests_for_test_task_TestTask - 2017.11.11 at 10h 22m 58s.xml">
+      <configuration name="Unittests for test_task.TestTask" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_fuel_deploy_DeployTest_test_gen_update_controller_workflow - 2017.09.02 at 11h 01m 10s.xml">
-      <configuration name="Unittests for test_fuel_deploy.DeployTest.test_gen_update_controller_workflow" configurationId="tests" />
+    <history-entry file="Unittests_for_test_task_TestTask - 2017.11.11 at 10h 26m 13s.xml">
+      <configuration name="Unittests for test_task.TestTask" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_fuel_deploy_DeployTest_test_generate_deplay - 2017.09.02 at 10h 55m 30s.xml">
-      <configuration name="Unittests for test_fuel_deploy.DeployTest.test_generate_deplay" configurationId="tests" />
+    <history-entry file="Unittests_for_test_task_TestTask_test_init - 2017.11.11 at 10h 08m 56s.xml">
+      <configuration name="Unittests for test_task.TestTask.test_init" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_fuel_deploy_py - 2017.09.02 at 11h 04m 12s.xml">
-      <configuration name="Unittests in test_fuel_deploy.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_task_TestTask_test_range - 2017.11.11 at 10h 10m 57s.xml">
+      <configuration name="Unittests for test_task.TestTask.test_range" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_tests - 2017.09.02 at 11h 53m 58s.xml">
-      <configuration name="Unittests in tests" configurationId="tests" />
+    <history-entry file="Unittests_in_test_task_py - 2017.11.11 at 10h 11m 43s.xml">
+      <configuration name="Unittests in test_task.py" configurationId="tests" />
     </history-entry>
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2953125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23174603" sideWeight="0.52916664" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14086471" sideWeight="0.83564234" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23174603" sideWeight="0.47083333" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24793388" sideWeight="0.630625" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.075" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3766756" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297587" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5192838" sideWeight="0.495" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23278236" sideWeight="0.5275" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23278236" sideWeight="0.4725" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42837465" sideWeight="0.624375" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20661157" sideWeight="0.813125" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.246875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30273974" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.165625" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5192838" sideWeight="0.49" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1：rename build container to create;&#10;2：user services var replace detail service item" />
-    <MESSAGE value="test" />
-    <MESSAGE value="add some gift" />
-    <MESSAGE value="and role for set service cgroup" />
-    <MESSAGE value="add deal for add node" />
-    <MESSAGE value="add some task for add new controller node" />
-    <MESSAGE value="add code for fuel tasks" />
-    <MESSAGE value="add medic for OceanStack" />
-    <MESSAGE value="re arct" />
-    <option name="LAST_COMMIT_MESSAGE" value="re arct" />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="CHANGE_BROWSER_SETTINGS">
-      <map>
-        <entry key="svn">
-          <value>
-            <ChangeBrowserSettings>
-              <option name="DATE_BEFORE" />
-              <option name="DATE_AFTER" />
-            </ChangeBrowserSettings>
-          </value>
-        </entry>
-      </map>
-    </option>
+    <MESSAGE value="commit change" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit change" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints-dialog>
-        <breakpoints-dialog />
-      </breakpoints-dialog>
-      <option name="time" value="6" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://E:/kaidong/openstack/networking-l2gw/networking_l2gw/db/l2gateway/l2gateway_db.py" />
-    <entry file="file://C:/Python27/Lib/inspect.py">
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="66" column="4" lean-forward="false" selection-start-line="66" selection-start-column="4" selection-end-line="66" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/2/six/__init__.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="53" column="4" lean-forward="false" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
+        <state relative-caret-position="189">
+          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/oslo_utils/reflection.py">
+    <entry file="file://$PROJECT_DIR$/bright/webspider/myspider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="160" column="28" lean-forward="false" selection-start-line="160" selection-start-column="28" selection-end-line="160" selection-end-column="28" />
+        <state relative-caret-position="273">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/kaidong/openstack/neutron-lib/neutron_lib/callbacks/manager.py" />
-    <entry file="file://E:/kaidong/openstack/neutron/neutron/plugins/ml2/plugin.py" />
-    <entry file="file://E:/kaidong/openstack/neutron/neutron/extensions/l3.py" />
-    <entry file="file://E:/kaidong/openstack/neutron/neutron/api/v2/attributes.py" />
-    <entry file="file://E:/kaidong/openstack/neutron/neutron/quota/resource_registry.py" />
-    <entry file="file://E:/kaidong/openstack/neutron/neutron/api/v2/base.py" />
-    <entry file="file://E:/kaidong/openstack/neutron/neutron/db/servicetype_db.py" />
-    <entry file="file://E:/kaidong/openstack/networking-l2gw/networking_l2gw/services/l2gateway/service_drivers/agent_api.py" />
-    <entry file="file://E:/kaidong/openstack/neutron/neutron/api/extensions.py" />
-    <entry file="file://E:/kaidong/openstack/neutron/neutron/callbacks/registry.py" />
-    <entry file="file://E:/kaidong/openstack/neutron-lib/neutron_lib/callbacks/registry.py" />
-    <entry file="file://E:/kaidong/openstack/neutron/neutron/scheduler/l3_agent_scheduler.py" />
-    <entry file="file://E:/kaidong/openstack/neutron/neutron/callbacks/resources.py" />
-    <entry file="file://E:/kaidong/openstack/neutron/README.rst" />
-    <entry file="file://$PROJECT_DIR$/../cluster/ansible/roles/registry/tasks/build.yml">
+    <entry file="file://$PROJECT_DIR$/bright/medic/auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bright/medic/project.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bright/webspider/myspider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bright/webspider/myspider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bright/task/task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bright/medic/simple.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../cluster/ansible/roles/rabbit/handlers/main.yml">
+    <entry file="file://C:/Python27/Lib/site-packages/apscheduler/schedulers/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="38" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="38" />
+        <state relative-caret-position="8350">
+          <caret line="360" column="8" lean-forward="false" selection-start-line="360" selection-start-column="8" selection-end-line="360" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2017.2/system/python_stubs/-762174762/_weakref.py" />
-    <entry file="file://E:/kaidong/openstack/neutron/neutron/tests/base.py" />
-    <entry file="file://E:/kaidong/openstack/neutron/neutron/tests/fullstack/resources/environment.py" />
-    <entry file="file://E:/kaidong/openstack/neutron/neutron/services/externaldns/driver.py" />
-    <entry file="file://E:/kaidong/openstack/neutron/setup.cfg" />
-    <entry file="file://E:/kaidong/openstack/neutron-lib/neutron_lib/plugins/constants.py" />
-    <entry file="file://E:/kaidong/openstack/neutron/neutron/services/l3_router/l3_router_plugin.py" />
-    <entry file="file://E:/kaidong/openstack/neutron-lib/neutron_lib/plugins/directory.py" />
-    <entry file="file://E:/kaidong/openstack/neutron/neutron/manager.py" />
-    <entry file="file://E:/kaidong/openstack/neutron/neutron/core_extensions/qos.py" />
-    <entry file="file://E:/kaidong/openstack/neutron/neutron/plugins/common/constants.py" />
-    <entry file="file://E:/kaidong/openstack/networking-l2gw/networking_l2gw/cmd/eventlet/agent.py" />
-    <entry file="file://E:/kaidong/openstack/networking-l2gw/networking_l2gw/services/l2gateway/common/config.py" />
-    <entry file="file://E:/kaidong/openstack/networking-l2gw/networking_l2gw/services/l2gateway/l2gw_agent.py" />
-    <entry file="file://E:/kaidong/openstack/neutron/neutron/api/v2/router.py" />
-    <entry file="file://E:/kaidong/openstack/networking-l2gw/networking_l2gw/extensions/l2gatewayconnection.py" />
-    <entry file="file://E:/kaidong/openstack/networking-l2gw/README.rst" />
-    <entry file="file://E:/kaidong/openstack/networking-l2gw/doc/source/readme.rst" />
-    <entry file="file://E:/kaidong/openstack/networking-l2gw/doc/source/usage.rst" />
-    <entry file="file://E:/kaidong/openstack/networking-l2gw/doc/source/installation.rst" />
-    <entry file="file://E:/kaidong/openstack/networking-l2gw/doc/source/index.rst" />
-    <entry file="file://E:/kaidong/openstack/networking-l2gw/doc/source/conf.py" />
-    <entry file="file://E:/kaidong/openstack/networking-l2gw/doc/source/contributing.rst" />
-    <entry file="file://E:/kaidong/openstack/nova/nova/api/openstack/compute/flavors.py" />
-    <entry file="file://E:/kaidong/openstack/networking-l2gw/networking_l2gw/extensions/l2gateway.py" />
-    <entry file="file://E:/kaidong/openstack/networking-l2gw/networking_l2gw/services/l2gateway/plugin.py" />
-    <entry file="file://E:/kaidong/openstack/neutron/.gitignore" />
-    <entry file="file://C:/Python27/Lib/site-packages/requests/adapters.py">
+    <entry file="file://$PROJECT_DIR$/bright/tests/unittests/task/test_task.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="489" column="0" lean-forward="false" selection-start-line="489" selection-start-column="0" selection-end-line="489" selection-end-column="0" />
+        <state relative-caret-position="375">
+          <caret line="20" column="45" lean-forward="false" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/urllib3/connectionpool.py">
+    <entry file="file://$PROJECT_DIR$/bright/medic/scheduler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="851" column="0" lean-forward="false" selection-start-line="851" selection-start-column="0" selection-end-line="851" selection-end-column="0" />
+        <state relative-caret-position="125">
+          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bright/gitlab/client.py">
+    <entry file="file://$PROJECT_DIR$/bright/workflow/workflow.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="15" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bright/deploy/add_computes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bright/oslo/context.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bright/tests/unittests/task/test_task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="20" column="45" lean-forward="false" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/apscheduler/schedulers/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8350">
+          <caret line="360" column="8" lean-forward="false" selection-start-line="360" selection-start-column="8" selection-end-line="360" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bright/task/task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bright/medic/simple.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bright/medic/scheduler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="8" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        <state relative-caret-position="189">
+          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <entry file="file://$PROJECT_DIR$/bright/webspider/myspider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bright/medic/auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bright/medic/project.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
