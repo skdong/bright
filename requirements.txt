@@ -8,3 +8,4 @@ timeout
 apscheduler
 python-consul
 scrapy
+tensorflow
